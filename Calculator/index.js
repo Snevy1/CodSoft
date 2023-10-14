@@ -26,13 +26,11 @@ operants.forEach((operant) => {
       operator = operant.value;
       firstNumber = previousComput;
       displayCurr.innerHTML = "";
-      console.log(firstNumber);
-      console.log(secondNumber);
+      //console.log(firstNumber);
+      //console.log(secondNumber);
     }
   });
 });
-
-//display func
 
 const handleClick = (e) => {
   displayCurr.innerHTML === "0"
@@ -132,41 +130,3 @@ function concatFunc() {
 
   return operatorFunc(firstNumber, operator, secondNumber);
 }
-
-//Basic math operator functions
-
-//const add = () => {};
-
-//Operator function
-
-//unrelated
-
-/* function rounds_won(results) {
-  let player1Wins = 0;
-  let player2Wins = 0;
-  let WinnerPoints = 0;
-  for (let num in results) {
-    if (results[num] == 1) {
-      player1Wins += 1;
-    } else if (results[num] == 2) {
-      player2Wins += 1;
-    }
-  }
-  if (player1Wins > player2Wins) {
-    WinnerPoints = player1Wins;
-    return `Player1Wins with ${WinnerPoints}`;
-  } else if (player2Wins > player1Wins) {
-    WinnerPoints = player2Wins;
-    return `Player2Wins with ${WinnerPoints}`;
-  } else if (player1Wins == player2Wins) {
-    WinnerPoints = player2Wins;
-    return `Player1Wins with ${WinnerPoints}`;
-  }
-}
-
-rounds_won([1, 2, 1]);
-console.log(rounds_won([1, 2, 2, 1]));
- */
-
-/* const someNumber = eval(5 * 6 - 78 * 6);
-console.log(someNumber); */
