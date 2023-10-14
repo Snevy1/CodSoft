@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portifolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      defer
+    ></script>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav__container">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+      </nav>
+    </header>
+
+    <!-- <nav>
+      <ul class="nav__container2">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav> -->
+    <section class="svg" id="home">
+      <article>
+        <img
+          src="images/welcome_cats.svg"
+          alt=""
+          class="welcome-cat"
+          width="50%"
+        />
+      </article>
+
+      <article class="welcome__explanation">
+        <p>
+          Hello there, welcome to my portifolio.Don't forget to contact me if
+          you are impressed by my work and personality
+        </p>
+      </article>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about__container">
+        <div class="image__container">
+          <img src="images/developer.svg" alt="" />
+        </div>
+        <div class="about__info">
+          <p>
+            My name is Nevily. I am passionate about web development and the
+            tech space.I have vast knowledge in frontend web technologies and
+            aspiring to be a fullstack developer.
+          </p>
+          <h2>Fun facts about me:</h2>
+          <ul>
+            <li>When I was young I wanted to be a policeman</li>
+            <li>I have less than 10 songs on my playlist</li>
+            <li>I love apples!</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h1>Skills</h1>
+      <div class="icons">
+        <div class="icon__languages">
+          <h2>Languages</h2>
+          <div class="icon__languages__info">
+            <span class="icon"><i class="uil uil-html5"></i></span>
+            <span class="icon"><i class="uil uil-css3-simple"></i></span>
+            <span class="icon"><i class="uil uil-java-script"></i></span>
+            <span class="icon"><i class="uil uil-react"></i></span>
+            <span class="icon"><i class="uil uil-wordpress-simple"></i></span>
+          </div>
+        </div>
+
+        <div class="icon__tools">
+          <h2>Tools</h2>
+          <div class="tools__icon">
+            <span class="icon"><i class="uil uil-github"></i></span>
+            <span class="icon"><i class="uil uil-visual-studio"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h1>PROJECTS</h1>
+      <article>
+        <h2>Restaurant Website</h2>
+        <article class="project__info-container">
+          <div class="project__image">
+            <img src="images/restaurant.png" alt="" />
+          </div>
+          <div class="project__info">
+            <p>
+              This is a multipage restaurant website. I used Javascript to
+              generate all the content on the webpage with single html file.I
+              used webpack to bundle Javascript modules and css files.
+            </p>
+            <p>Languages: Javascript- 80%, CSS: 15%, HTML: 5%</p>
+            <div class="project__links">
+              <a href="https://github.com/Snevy1/Restauranta.git"
+                ><input type="button" value="Github"
+              /></a>
+              <a href="https://resturantnevy.netlify.app/"
+                ><input type="button" value="Live Preview"
+              /></a>
+            </div>
+          </div>
+        </article>
+      </article>
+
+      <article>
+        <h2>Amazon Best Sellers clone</h2>
+        <article class="project__info-container">
+          <div class="project__image">
+            <img src="images/amazon.png" alt="" />
+          </div>
+          <div class="project__info">
+            <p>
+              This is a clone of Amazon Best Sellers homepage . I used React.
+            </p>
+            <p>Languages: React</p>
+            <div class="project__links">
+              <a href="https://bestsellersamazonnevil.netlify.app/"
+                ><input type="button" value="Live Preview"
+              /></a>
+            </div>
+          </div>
+        </article>
+      </article>
+
+      <article>
+        <h2>Educational Website</h2>
+        <article class="project__info-container">
+          <div class="project__image">
+            <img src="images/education1.png" alt="" />
+          </div>
+          <div class="project__info">
+            <p>
+              This is a multipage educational website with many html files for
+              each tab and css but one javascript file.It has afunctional
+              contact form.
+            </p>
+            <p>Languages: HTML: 45%, CSS: 35%, Javascript- 10%</p>
+            <div class="project__links">
+              <a href="https://github.com/Snevy1/Educational-website.git"
+                ><input type="button" value="Github"
+              /></a>
+              <a href="https://snevy1.github.io/Educational-website/"
+                ><input type="button" value="Live Preview"
+              /></a>
+            </div>
+          </div>
+        </article>
+      </article>
+
+      <!--        =================One more project============
+ -->
+      <article>
+        <h2>Javascript Calculator</h2>
+        <article class="project__info-container">
+          <div class="project__image">
+            <img src="images/calculator.png" alt="" />
+          </div>
+          <div class="project__info">
+            <p>
+              This is a javascript calculator,followed guidelines of the Odin
+              Project. This is a project I did as one of projects while doing an
+              internship at Codsoft.
+            </p>
+            <p>Languages: HTML: 15%, CSS: 15%, Javascript- 60%</p>
+            <div class="project__links">
+              <a href="https://github.com/Snevy1/javascript-calculator"
+                ><input type="button" value="Github"
+              /></a>
+              <a href="https://snevy1.github.io/javascript-calculator/"
+                ><input type="button" value="Live Preview"
+              /></a>
+            </div>
+          </div>
+        </article>
+      </article>
+
+      <!--        =================End============
+ -->
+
+      <article>
+        <h2>Wordpress Ecommerce website</h2>
+        <article class="project__info-container">
+          <div class="project__image">
+            <img src="images/ecommerce.png" alt="" />
+          </div>
+          <div class="project__info">
+            <p>
+              This is a fully functional wordpress ecommerce website with
+              functional payment gateways and contact page.
+            </p>
+            <p>
+              Technologies: wordpress, woocommerce, elementor, paypal plugin
+            </p>
+            <div class="project__links">
+              <a href="#"><input type="button" value="Github" /></a>
+              <a href="https://fanjesvily.xyz/"
+                ><input type="button" value="Live Preview"
+              /></a>
+            </div>
+          </div>
+        </article>
+      </article>
+      <article>
+        <h2>Landing Page</h2>
+        <article class="project__info-container">
+          <div class="project__image">
+            <img src="images/onlinecourse.png" alt="" />
+          </div>
+          <div class="project__info">
+            <p>
+              This is a landing page for an online course and a multi-business
+              website.
+            </p>
+            <p>Technologies: wordpress, elementor</p>
+            <div class="project__links">
+              <a href="https://wordpresslandingpage.netlify.app/"
+                ><input type="button" value="Live Preview"
+              /></a>
+            </div>
+          </div>
+        </article>
+      </article>
+      <article>
+        <h2>Medical Supplies Landing Page</h2>
+        <article class="project__info-container">
+          <div class="project__image">
+            <img src="images/collections.png" alt="" />
+          </div>
+          <div class="project__info">
+            <p>This is a landing page for a medical supplies company.</p>
+            <p>Languages: HTML: 45%, CSS: 35%, Javascript- 10%</p>
+            <div class="project__links">
+              <a href="https://github.com/Snevy1/landing_page.git"
+                ><input type="button" value="Github"
+              /></a>
+              <a href="https://snevy1.github.io/landing_page/"
+                ><input type="button" value="Live Preview"
+              /></a>
+            </div>
+          </div>
+        </article>
+      </article>
+    </section>
+
+    <section class="services" id="services">
+      <h1>SERVICES</h1>
+      <div class="service__container">
+        <article>
+          <h2>Web design</h2>
+          <div class="service__info">
+            <p>
+              My main service is web development and I create visually
+              appealing,user-friendly websites.
+            </p>
+          </div>
+        </article>
+        <article>
+          <h2>Software development</h2>
+          <span></span>
+          <div class="service__info">
+            <p>
+              With strong foundation in programming languages such as
+              javascript, react and C language, I am very much equiped to fix
+              and develop a wide range of software applications.
+            </p>
+          </div>
+        </article>
+        <article>
+          <h2>Freelance</h2>
+          <div class="service__info">
+            <p>
+              I am an active freelancer on upwork. I am always ready for any
+              freelance work.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact__container">
+        <div class="socials">
+          <div class="twitter">
+            <span class="socials"><i class="uil uil-twitter"></i></span>
+            <a href="https://twitter.com/Sneviy"><p>Twitter</p></a>
+          </div>
+          <div class="whatsapp">
+            <span class="socials"><i class="uil uil-whatsapp-alt"></i></span>
+            <p>whatsapp</p>
+          </div>
+
+          <div class="Mobile">
+            <span class="socials"><i class="uil uil-phone"></i></span>
+            <p>Mobile</p>
+            <p>+254746358820</p>
+          </div>
+          <div class="Github">
+            <span class="socials"><i class="uil uil-github"></i></span>
+            <a href="https://github.com/Snevy1"><p>Github</p></a>
+          </div>
+        </div>
+        <div class="form">
+          <form action="https://formspree.io/f/xjvqrdba" method="post">
+            <label for="name">First Name</label>
+            <input type="text" placeholder="First Name" id="name" />
+            <label for="email">EMAIL</label>
+            <input type="email" placeholder="Email" />
+            <label for="text">Message</label>
+            <textarea name="message" id="text" cols="30" rows="5"></textarea>
+            <input type="submit" class="btn" />
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
