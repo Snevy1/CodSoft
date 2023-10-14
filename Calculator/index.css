@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background: #f0ffff;
   /* text-align: center; */
@@ -11,6 +15,7 @@ body {
   justify-content: center;
   align-content: center;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .calc-container {
